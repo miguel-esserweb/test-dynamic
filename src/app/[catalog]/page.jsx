@@ -55,7 +55,7 @@ const Page = ({ params }) => {
   console.log(filesExist);
 
   if (filesExist) {
-    Component = dynamic(() => import(`@/components/Kia/model/${catalog}`));
+    Component = dynamic(() => import(`@/components/Kia/Model/${catalog}`));
   }
 
   return <>{Component ? <Component /> : <div>No existe</div>}</>;
