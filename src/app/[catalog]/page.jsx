@@ -41,7 +41,7 @@ const modelsAutoland = [
 ];
 
 export async function generateStaticParams() {
-  return [{ catalog: "Picanto" }, { catalog: "Ceed" }];
+  return [{ catalog: "Picanto" }, { catalog: "Ceed" }, { catalog: "ford" }];
 }
 
 const Page = ({ params }) => {
